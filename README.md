@@ -14,3 +14,5 @@ Key Features:
 Real-time inventory updates with modern UI.
 Predictive analytics for restocking and sales insights.
 Automated alerts for low stock and slow-moving products.
+
+*Currently working on the (Backend) & (Frontend) connection for smooth functioning of the project.
