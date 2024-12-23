@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Inventory Management</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2>Inventory Manager</h2>
+        <nav>
+          <button id="addProductBtn">Add Product</button>
+          <button id="updateProductBtn">Update Product</button>
+          <button id="deleteProductBtn">Delete Product</button>
+          <button id="lowStockBtn">Low Stock Alert</button>
+          <button id="demandPredictionBtn">Predict Demand</button>
+        </nav>
+      </aside>
+
+      <!-- Main Content Area -->
+      <main class="main-content">
+        <header class="header">
+          <h1>Smart Inventory Management System</h1>
+        </header>
+
+        <!-- Dynamic Content Section -->
+        <section id="dynamicContent" class="content-box">
+          <p class="placeholder-text">
+            Choose an option from the sidebar to perform an operation and view
+            results here.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
